@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">hw3</string>
+    <string name="songName">Nujabes - Modal Soul</string>
+    <string name="prevB">PREVIOUS</string>
+    <string name="pauseB">Pause</string>
+    <string name="nextB">Next</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="likeC">Like</string>
+    <string name="ShareC">Share</string>
+    <string name="MoreC">...</string>
+    <string name="title">From My Playlist 3</string>
 </resources>

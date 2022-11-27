@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ödev3</string>
+    <string name="songName">Nujabes - Modal Soul</string>
+    <string name="prevB">ÖNCEKİ</string>
+    <string name="pauseB">DURAKLAT</string>
+    <string name="nextB">SIRADAKİ</string>
+    <string name="shuffle">Rastgele</string>
+    <string name="likeC">Beğen</string>
+    <string name="ShareC">Paylaş</string>
+    <string name="MoreC">...</string>
+    <string name="title">Çalınan: My Playlist 3</string>
+</resources>

@@ -7,8 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="textColor">#FF202015</color>
-    <color name="mainColor">#F0DBDB</color>
-    <color name="mainColorDark">#DBA39A</color>
-    <color name="mainBackGrouund">#FEFCF3</color>
+    <color name="textColor">#EEEEEE</color>
+    <color name="mainColor">#787A91</color>
+    <color name="mainColorDark">#0F044C</color>
+    <color name="mainBackGrouund">#141E61</color>
 </resources>
