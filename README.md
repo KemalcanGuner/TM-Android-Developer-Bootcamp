@@ -1,4 +1,18 @@
 # TM-Android-Developer-Bootcamp
+homework 4 screenshots: 
+![image](https://user-images.githubusercontent.com/48220433/205096775-93cd0f5e-6533-461d-90cd-267f19f69927.png)
+
+
+
+
+
+
+
+
+
+
+
+
 homework 3 screenshots:
 light mode - en
 
