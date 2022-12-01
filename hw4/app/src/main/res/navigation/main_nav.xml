@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/mainPageFragment">
+
+    <fragment
+        android:id="@+id/mainPageFragment"
+        android:name="com.example.hw4.MainPageFragment"
+        android:label="fragment_main_page"
+        tools:layout="@layout/fragment_main_page" >
+        <action
+            android:id="@+id/mainToOrange"
+            app:destination="@id/orangeFragment" />
+        <action
+            android:id="@+id/mainToGray"
+            app:destination="@id/grayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/orangeFragment"
+        android:name="com.example.hw4.OrangeFragment"
+        android:label="fragment_orange"
+        tools:layout="@layout/fragment_orange" >
+        <argument
+            android:name="mermer"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_orangeFragment_to_blackFragment"
+            app:destination="@id/blackFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/grayFragment"
+        android:name="com.example.hw4.GrayFragment"
+        android:label="fragment_gray"
+        tools:layout="@layout/fragment_gray" >
+        <argument
+            android:name="grayFragArg"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_grayFragment_to_yellowFragment"
+            app:destination="@id/yellowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yellowFragment"
+        android:name="com.example.hw4.YellowFragment"
+        android:label="fragment_yellow"
+        tools:layout="@layout/fragment_yellow" >
+        <argument
+            android:name="yellowArg"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_yellowFragment_to_mainPageFragment"
+            app:destination="@id/mainPageFragment"
+            app:popUpTo="@id/mainPageFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/blackFragment"
+        android:name="com.example.hw4.BlackFragment"
+        android:label="fragment_black"
+        tools:layout="@layout/fragment_black" >
+        <argument
+            android:name="blackArg"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_blackFragment_to_yellowFragment"
+            app:destination="@id/yellowFragment" />
+    </fragment>
+</navigation>
