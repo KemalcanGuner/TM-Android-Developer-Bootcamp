@@ -2,10 +2,14 @@
 homework 5 screenshots:
 
 topla'ya basmadan önce:
+
 ![image](https://user-images.githubusercontent.com/48220433/206476032-772b21ca-6903-4a00-ad45-1e45ec13ae7e.png)
+
 toplaya bastıktan sonra art arda yapılabilecek toplama işlemlerini mümkün 
 kılmak için sonucu soldaki input yerine koyup sağ inputu boşaltıyoruz
+
 ![image](https://user-images.githubusercontent.com/48220433/206476433-2be38dd1-531c-41da-84a0-de1b378c42ff.png)
+
 boş inputta snackbar ile değer giriniz uyarısı veriyor
 sıfırla tuşu her şeyi temizliyor
 
