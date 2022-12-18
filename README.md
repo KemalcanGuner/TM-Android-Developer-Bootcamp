@@ -1,31 +1,16 @@
 # TM-Android-Developer-Bootcamp
-homework 5 screenshots:
+homework 6: Reddit'in Popular Feed'inin listeleme arayüzü
 
-topla'ya basmadan önce:
+ekran görüntüleri:
 
-![image](https://user-images.githubusercontent.com/48220433/206476032-772b21ca-6903-4a00-ad45-1e45ec13ae7e.png)
+Lineer & vertical layout. 
 
-toplaya bastıktan sonra art arda yapılabilecek toplama işlemlerini mümkün 
-kılmak için sonucu soldaki input yerine koyup sağ inputu boşaltıyoruz
+Gönderiye tıklayınca tam ekran yapıyor.
 
-![image](https://user-images.githubusercontent.com/48220433/206476433-2be38dd1-531c-41da-84a0-de1b378c42ff.png)
+![image](https://user-images.githubusercontent.com/48220433/208284228-beca9d14-bc93-426f-98f6-28bd335aceac.png)
 
-boş inputta snackbar ile değer giriniz uyarısı veriyor
-sıfırla tuşu her şeyi temizliyor
+![image](https://user-images.githubusercontent.com/48220433/208284319-31f1ed94-75bf-4c89-beca-99798062e375.png)
 
-
+![image](https://user-images.githubusercontent.com/48220433/208284241-462fc6f7-b9b8-492a-947b-21a752a1a207.png)
 
 
-homework 4 screenshots: 
-![image](https://user-images.githubusercontent.com/48220433/205096775-93cd0f5e-6533-461d-90cd-267f19f69927.png)
-
-
-
-homework 3 screenshots:
-light mode - en
-
-![image](https://user-images.githubusercontent.com/48220433/204115818-dbd58a1c-fe36-4c59-975f-093e104a9995.png)
-
-night mode - en ///  light mode - tr - xlarge layout
-
-![image](https://user-images.githubusercontent.com/48220433/204115991-c0f0ebdb-5bab-462a-b85a-7531838bb76a.png)
